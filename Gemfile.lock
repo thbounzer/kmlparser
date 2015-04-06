@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     kmlparser (0.0.0)
-      nokogiri
+      nokogiri (~> 1.6, >= 1.6.1)
 
 GEM
   remote: https://rubygems.org/
@@ -30,4 +30,4 @@ PLATFORMS
 
 DEPENDENCIES
   kmlparser!
-  rspec
+  rspec (~> 3.2, >= 3.2.0)
