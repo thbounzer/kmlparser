@@ -1,9 +1,8 @@
 require 'nokogiri'
-require_relative './placemark.rb'
+require_relative 'placemark.rb'
 
 module Kmlparser
 	class Parser
-		#	google_geo_api_key: 'AIzaSyBxA3Rm64EyuJXiTAg4s9T_ZzItQhNQ3l4'	
 		def initialize(file)
 			@xpath = '//xmlns:Placemark[xmlns:Point]'
 			@file = file	
